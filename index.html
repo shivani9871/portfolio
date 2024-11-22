@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shivani Kashyap's Professional Portfolio">
+    <title>Shivani Kashyap Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Body Styling */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: white;
+            background: url('https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        header, section, footer {
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+            width: 90%;
+            max-width: 800px;
+        }
+
+        header h1, section h2 {
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #ff758c;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background-color: #ff4558;
+            transform: scale(1.1);
+        }
+
+        /* Skills Section */
+        .skills-container {
+            text-align: left;
+        }
+
+        .skill {
+            margin: 15px 0;
+        }
+
+        .skill-title {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+
+        .progress-bar {
+            height: 20px;
+            border-radius: 10px;
+            background-color: #444;
+            position: relative;
+        }
+
+        .progress-fill {
+            height: 100%;
+            border-radius: 10px;
+            background: linear-gradient(90deg, #ff758c, #ff4558);
+            text-align: right;
+            padding-right: 10px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: white;
+            line-height: 20px;
+        }
+
+        /* Footer Links */
+        .footer-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #ff758c;
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        header, section, footer {
+            animation: fadeIn 1.5s ease;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <header class="bg-blue-600 text-white py-4">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello! I'm Shivani,	 software developer.</p>
+        <a href="#about" class="button">Learn More About Me</a>
+    </header>
+</header>
+
+<!-- Photo Section -->
+<section id="photo" style="text-align: center; margin-top: 30px;">
+    <h2 style="font-size: 2.5rem;">My Profile</h2>
+    <div style="margin: 20px auto; width: 200px; height: 200px; border-radius: 50%; overflow: hidden; border: 5px solid #ff758c;">
+        <img src="WhatsApp Image 2024-10-02 at 09.02.04_fa586c84.jpg",
+             alt="" 
+             style="width: 80%; height: 100%; object-fit: cover;">
+    </div>
+    <p style="font-size: 1.2rem; margin-top: 20px;">
+        Hi, I'm Shivani , a software developer passionate about coding and creating innovative solutions!
+    </p>
+</section>
+
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a dedicated software developer with a strong interest in web development, 
+            Python programming, and data analysis. I enjoy solving real-world problems 
+            through technology and building user-friendly applications.
+        </p>
+    </section>
+
+<!-- Education Section -->
+<section id="education">
+    <h2>My Education</h2>
+    <div style="text-align: left; margin: 20px auto; width: 90%; max-width: 800px; font-size: 1.2rem;">
+        <!-- Bachelor of Arts -->
+        <div style="margin-bottom: 20px;">
+            <h3 style="margin-bottom: 5px;">Bachelor of Arts (B.A.)</h3>
+            <p style="margin: 0; font-style: italic;">Mata Sundari College, Delhi University</p>
+            <p style="margin: 0;">2022 - Present</p>
+        </div>
+
+        <!-- Junior Software Course -->
+        <div style="margin-bottom: 20px;">
+            <h3 style="margin-bottom: 5px;">Junior Software Course</h3>
+            <p style="margin: 0; font-style: italic;">World Class Skill Center</p>
+            <p style="margin: 0;">2023 - Present</p>
+        </div>
+
+        <!-- Advanced Diploma in Software Engineering -->
+        <div style="margin-bottom: 20px;">
+            <h3 style="margin-bottom: 5px;">Advanced Diploma in Software Engineering (ADSE)</h3>
+            <p style="margin: 0; font-style: italic;">Completed Certification</p>
+        </div>
+
+        <!-- Higher Secondary Education -->
+        <div style="margin-bottom: 20px;">
+            <h3 style="margin-bottom: 5px;">Higher Secondary Education </h3>
+            <p style="margin: 0; font-style: italic;">Rattan devi arya girls sr.</p>
+            <p style="margin: 0;">Year of Completion: 2022</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Poll/Skills Section -->
+    <section id="skills">
+        <h2>My Interests</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <p class="skill-title">HTML (90%)</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 90%;">90%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <p class="skill-title">C Language (70%)</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 70%;">70%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <p class="skill-title">Python (80%)</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 80%;">80%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <p class="skill-title">MySQL (85%)</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 85%;">85%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Photo Gallery Section -->
+<section id="">
+    <h2 style="font-size: 2.5rem; text-align: center; margin-top: 30px;"> </h2>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin: 20px auto; width: 90%; max-width: 800px;">
+        <!-- Photo 1 -->
+        <div style="width: 30%; overflow: hidden; border-radius: 10px; border: 2px solid #ff758c;">
+            <img src="photo 1.webp" ,
+           alt="Operating System 2" style="width: 100%; height: auto;">
+        </div>
+        <!-- Photo 2 -->
+        <div style="width: 30%; overflow: hidden; border-radius: 10px; border: 2px solid #ff758c;">
+            <img src="photo 2.jpg" ,alt="Operating System 2" style="width: 100%; height: auto;">
+        </div>
+        <!-- Photo 3 -->
+        <div style="width: 30%; overflow: hidden; border-radius: 10px; border: 2px solid #ff758c;">
+            <img src="photo 3.jpg" ,alt="Operating System 3" style="width: 100%; height: auto;">
+        </div>
+        <!-- Photo 4 -->
+        <div style="width: 30%; overflow: hidden; border-radius: 10px; border: 2px solid #ff758c;">
+            <img src="photo 4.webp", alt="Operating System 4" style="width: 100%; height: auto;">
+        </div>
+        <!-- Photo 5 -->
+        <div style="width: 30%; overflow: hidden; border-radius: 10px; border: 2px solid #ff758c;">
+            <img src="photo 5.webp", alt="Operating System 5" style="width: 100%; height: auto;">
+        </div>
+        <!-- Photo 6 -->
+        <div style="width: 30%; overflow: hidden; border-radius: 10px; border: 2px solid #ff758c;">
+            <img src="photo 6.webp", alt="Operating System 6" style="width: 100%; height: auto;">
+        </div>
+    </div>
+</section>
+
+     
+    <!-- Contact Section -->
+<section id="contact">
+    <h2 style="font-size: 2.5rem;">Contact Me</h2>
+    <form style="font-size: 1.2rem; width: 90%; margin: 0 auto; max-width: 600px;">
+        <!-- Name Input -->
+        <label for="name" style="display: block; margin-bottom: 10px; font-size: 1.2rem;">Name</label>
+        <input type="text" id="name" placeholder="Your Name" required
+            style="width: 100%; padding: 15px; font-size: 1.2rem; border-radius: 8px; border: 1px solid #ccc;" />
+        <br><br>
+        
+        <!-- Email Input -->
+        <label for="email" style="display: block; margin-bottom: 10px; font-size: 1.2rem;">Email</label>
+        <input type="email" id="email" placeholder="Your Email" required
+            style="width: 100%; padding: 15px; font-size: 1.2rem; border-radius: 8px; border: 1px solid #ccc;" />
+        <br><br>
+        
+        <!-- Message Textarea -->
+        <label for="message" style="display: block; margin-bottom: 10px; font-size: 1.2rem;">Message</label>
+        <textarea id="message" placeholder="Your Message" rows="8" required
+            style="width: 100%; padding: 15px; font-size: 1.2rem; border-radius: 8px; border: 1px solid #ccc;"></textarea>
+        <br><br>
+        
+        <!-- Submit Button -->
+        <button type="submit"
+            style="background-color: #ff758c; color: white; padding: 15px 30px; font-size: 1.2rem; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; transition: background 0.3s;">
+            Send Message
+        </button>
+    </form>
+</section>
+
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Connect with me:</p>
+        <div class="footer-links">
+            <a href="https://www.linkedin.com/in/shivani-kashyap-46165532b" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:shivanya8826@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/shivani9871/shivani" target="_blank"><i class="fab fa-github"></i></a>
+    
+            <a href="https://instagram.com/your-instagram-handle" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 Shivani. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
